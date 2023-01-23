@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="f91fe926-fbe4-4073-8891-c262adf78c54" ChangeDateTime="01/20/2023 15:06:02">
+    <Property Name="ElementName" Value="[dbo].[FuelDairyPrice].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[FuelDairyPrice]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Date" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="2122ee22-4e88-40f1-97e0-bd00e1113eab" ChangeDateTime="01/20/2023 15:07:04">
+    <Property Name="ElementName" Value="[dbo].[FuelDairyPrice].[Date]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[FuelDairyPrice]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="int" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="43e3b0c7-b585-4ed7-8806-bb7db05cc81f" ChangeDateTime="01/20/2023 20:04:45">
+    <Property Name="ElementName" Value="[dbo].[FuelDairyPrice].[Date]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[FuelDairyPrice]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="PriceDate" />
+  </Operation>
+</Operations>
