@@ -8,7 +8,8 @@ namespace RPMFuelDataManager.Library.Models
 {
     public class DataModel
     {
-        public DateOnly PriceDate { get; set; }
+        public DateTime PriceDate { get; set; }
         public decimal Price { get; set; }
+        public string CharDate { get; set; }    
     }
 }

@@ -9,7 +9,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Database", "Database", "{8E
 EndProject
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "RPMFuelPriceDB", "RPMFuelPriceDB\RPMFuelPriceDB.sqlproj", "{138865C4-95E3-4FB9-BFBF-8932DB0DB1B0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RPMFuelDataManager.Library", "RPMFuelDataManager.Library\RPMFuelDataManager.Library.csproj", "{A697ECB9-91CA-40F5-A37B-D5CB0567ECFC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RPMFuelDataManager.Library", "RPMFuelDataManager.Library\RPMFuelDataManager.Library.csproj", "{A697ECB9-91CA-40F5-A37B-D5CB0567ECFC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{96A29967-08D0-4719-AFBA-5B80F2ED8423}"
+	ProjectSection(SolutionItems) = preProject
+		ReadMe.txt = ReadMe.txt
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

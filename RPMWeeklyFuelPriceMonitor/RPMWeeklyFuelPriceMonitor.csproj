@@ -11,4 +11,8 @@
     <PackageReference Include="ADO.Net.Client.Core" Version="1.4.5" />
     <PackageReference Include="Microsoft.Extensions.Hosting" Version="6.0.1" />
   </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\RPMFuelDataManager.Library\RPMFuelDataManager.Library.csproj" />
+  </ItemGroup>
 </Project>

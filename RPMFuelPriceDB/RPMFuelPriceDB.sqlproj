@@ -66,4 +66,7 @@
   <ItemGroup>
     <RefactorLog Include="RPMFuelPriceDB.refactorlog" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="RPMFuelPriceDB.publish.xml" />
+  </ItemGroup>
 </Project>

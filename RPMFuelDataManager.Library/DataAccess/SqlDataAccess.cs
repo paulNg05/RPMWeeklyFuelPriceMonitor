@@ -22,7 +22,8 @@ namespace RPMFuelDataManager.Library.DataAccess
 
         public string GetConnectionString(string name)
         {
-            return _config.GetConnectionString(name);
+         
+           return _config.GetConnectionString(name);
         }
 
         //Generic SaveData method with stroe procedure
