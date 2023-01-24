@@ -8,6 +8,8 @@ Data Base publish:
 appsettings.json
   Connection string and other paramenter are entered in this file. Can be change as needed.
   "api": "http://api.eia.gov/series/?api_key=ec92aacd6947350dcb894062a4ad2d08&series_id=PET.EMD_EPD2D_PTE_NUS_DPG.W",
-  "delayExuction": 36000,
+  "delayExuction": 108000,
   "numDatesCutOff": 20
+
+  Right now the program is set to run about every two minutes, can shorten the time by changing the "delayExuction" value
 			

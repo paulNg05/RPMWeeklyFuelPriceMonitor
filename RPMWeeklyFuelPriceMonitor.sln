@@ -16,6 +16,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		ReadMe.txt = ReadMe.txt
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataManager.Lib", "DataManager.Lib", "{3DC78979-4919-4CEF-B8BA-110DC9145F71}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UserInterface", "UserInterface", "{ED2B836E-7719-4ADE-9A42-F1B0705AED56}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -41,7 +45,9 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
+		{F22B132C-C508-41FA-9EF3-9DF8FD8F8CD4} = {ED2B836E-7719-4ADE-9A42-F1B0705AED56}
 		{138865C4-95E3-4FB9-BFBF-8932DB0DB1B0} = {8ED23332-B2CB-462E-B4A0-7261ED87A965}
+		{A697ECB9-91CA-40F5-A37B-D5CB0567ECFC} = {3DC78979-4919-4CEF-B8BA-110DC9145F71}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7B532322-F05F-4313-A9A4-E3F7E6412ADC}
